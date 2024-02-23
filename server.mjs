@@ -25,7 +25,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   res.send('Welcome to my server!');
-  generateJwt('carl','carlgoldberg1236@gmail.com')
+  // generateJwt('carl','carlgoldberg1236@gmail.com')
 
 });
 
